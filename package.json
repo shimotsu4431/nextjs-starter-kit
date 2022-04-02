@@ -10,8 +10,7 @@
     "fix": "yarn lint",
     "fmt": "prettier --write \"**/*.{js,ts,tsx}\"",
     "test": "jest --watch",
-    "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.7",
