@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <Box p={4}>
+        <Box p={4} h='calc(100vh)' backgroundColor={`gray.100`}>
           <Heading marginBottom={2}>hello, world!</Heading>
           <Text fontSize='md'>This is {APP_NAME}.</Text>
         </Box>
