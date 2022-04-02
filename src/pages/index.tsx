@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <main>
         <Box p={4}>
           <Heading>hello, world!</Heading>
-          <Text fontSize='md'>This is template.</Text>
+          <Text fontSize='md'>This is Next.js starter template.</Text>
         </Box>
       </main>
     </>
