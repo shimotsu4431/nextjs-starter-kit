@@ -1,4 +1,4 @@
-import { Box, Heading, Text } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 import Head from 'next/head'
 
 import { APP_NAME } from '@/lib/constants'
@@ -13,8 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Box p={4}>
-        <Heading marginBottom={2}>hello, world!</Heading>
+      <Box>
         <Text fontSize="md">This is {APP_NAME}.</Text>
       </Box>
     </>
