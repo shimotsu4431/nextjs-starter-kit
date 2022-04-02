@@ -14,7 +14,7 @@ const Page2: NextPage = () => {
       </Head>
 
       <Box>
-        <Text fontSize="md">This is page1.</Text>
+        <Text fontSize="md">This is page2.</Text>
       </Box>
     </>
   )
