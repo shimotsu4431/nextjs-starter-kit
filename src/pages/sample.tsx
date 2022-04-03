@@ -19,7 +19,7 @@ const Sample: NextPage = () => {
       />
 
       <Box>
-        <Text color={'white'} fontSize="md">
+        <Text color={'black'} fontSize="md">
           This is sample page.
         </Text>
         <Box mt={4}>

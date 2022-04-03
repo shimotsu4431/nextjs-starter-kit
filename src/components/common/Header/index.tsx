@@ -6,7 +6,7 @@ import { APP_NAME } from '@/lib/constants'
 const Header: React.FC = () => {
   return (
     <Box p={8} as={'header'}>
-      <Heading color={'white'}>{APP_NAME}</Heading>
+      <Heading color={'black'}>{APP_NAME}</Heading>
     </Box>
   )
 }

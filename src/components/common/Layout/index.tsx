@@ -12,7 +12,7 @@ const Layout: React.FC = ({ children }) => {
         display={'flex'}
         flexDirection={'column'}
         minH={'calc(100vh)'}
-        backgroundColor={'black'}
+        backgroundColor={'gray.50'}
       >
         <Header />
         <Main>{children}</Main>
