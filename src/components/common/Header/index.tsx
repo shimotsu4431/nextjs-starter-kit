@@ -7,7 +7,7 @@ import routes from '@/lib/routes'
 
 const Header: React.FC = () => {
   return (
-    <Box p={4} as={'header'}>
+    <Box p={8} as={'header'}>
       <NextLink href={routes.home()} passHref>
         <ChakraUiLink>
           <Heading>{APP_NAME}</Heading>

@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   const year = date.getFullYear()
 
   return (
-    <Center p={4} as={'footer'}>
+    <Center p={8} as={'footer'}>
       <Text>Footer | {year}</Text>
     </Center>
   )

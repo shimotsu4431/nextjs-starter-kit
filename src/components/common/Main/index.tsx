@@ -3,7 +3,7 @@ import React from 'react'
 
 const Main: React.FC = ({ children }) => {
   return (
-    <Box flexGrow={1} flexShrink={1} flexBasis={0} px={4} as={'main'}>
+    <Box flexGrow={1} flexShrink={1} flexBasis={0} px={8} as={'main'}>
       {children}
     </Box>
   )
