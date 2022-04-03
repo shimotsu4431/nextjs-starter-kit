@@ -9,7 +9,7 @@ const Page2: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{APP_NAME} - page2</title>
+        <title>page2 | {APP_NAME}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
