@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 
   return (
     <Center p={8} as={'footer'}>
-      <Text fontSize={'sm'}>Footer | {year}</Text>
+      <Text color={'white'} fontSize={'sm'}>since {year}</Text>
     </Center>
   )
 }

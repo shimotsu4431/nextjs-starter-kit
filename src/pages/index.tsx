@@ -15,7 +15,9 @@ const Home: NextPage = () => {
     <>
       <NextSeo title={APP_NAME} description={APP_DESCRIPTION} />
       <>
-        <Text fontSize="md">This is {APP_NAME}.</Text>
+        <Text fontSize="md" color={'white'}>
+          This is {APP_NAME}.
+        </Text>
         <Box mt={4}>
           <Button
             colorScheme="teal"
