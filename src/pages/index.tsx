@@ -1,6 +1,11 @@
-import { Box, ListItem, Text, UnorderedList } from '@chakra-ui/react'
+import {
+  ListItem,
+  Text,
+  UnorderedList,
+  Link as ChakraUiLink,
+} from '@chakra-ui/react'
 import Head from 'next/head'
-import Link from 'next/link'
+import NextLink from 'next/link'
 
 import { APP_NAME } from '@/lib/constants'
 import routes from '@/lib/routes'
@@ -15,21 +20,21 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Box>
+      <>
         <Text fontSize="md">This is {APP_NAME}.</Text>
         <UnorderedList mt={4}>
           <ListItem>
-            <Link href={routes.page1()}>
-              <a>page1</a>
-            </Link>
+            <NextLink href={routes.page1()} passHref>
+              <ChakraUiLink>page1</ChakraUiLink>
+            </NextLink>
           </ListItem>
           <ListItem>
-            <Link href={routes.page2()}>
-              <a>page2</a>
-            </Link>
+            <NextLink href={routes.page2()} passHref>
+              <ChakraUiLink>page2</ChakraUiLink>
+            </NextLink>
           </ListItem>
         </UnorderedList>
-      </Box>
+      </>
     </>
   )
 }
