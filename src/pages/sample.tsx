@@ -1,5 +1,5 @@
 import { Box, Button, Text } from '@chakra-ui/react'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import { FiArrowLeft } from 'react-icons/fi'
 
@@ -13,10 +13,10 @@ const Sample: NextPage = () => {
 
   return (
     <>
-      <Head>
-        <title>sample | {APP_NAME}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title={`sample | ${APP_NAME}`}
+        description={'This is sample page.'}
+      />
 
       <Box>
         <Text fontSize="md">This is sample page.</Text>

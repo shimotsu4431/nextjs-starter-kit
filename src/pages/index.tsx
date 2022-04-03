@@ -1,9 +1,9 @@
 import { Box, Button, Text } from '@chakra-ui/react'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import { FiArrowRight } from 'react-icons/fi'
 
-import { APP_NAME } from '@/lib/constants'
+import { APP_DESCRIPTION, APP_NAME } from '@/lib/constants'
 import routes from '@/lib/routes'
 
 import type { NextPage } from 'next'
@@ -13,11 +13,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Head>
-        <title>{APP_NAME}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <NextSeo title={APP_NAME} description={APP_DESCRIPTION} />
       <>
         <Text fontSize="md">This is {APP_NAME}.</Text>
         <Box mt={4}>
