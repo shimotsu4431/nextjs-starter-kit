@@ -7,11 +7,11 @@ import ThemeButtonComponent from '../ThemeButton'
 
 const Header: React.FC = () => {
   const buttonStyleProps: any = {
-    color: useColorModeValue('gray.50', 'gray.600'),
+    color: useColorModeValue('gray.50', 'gray.700'),
     bgColor: useColorModeValue('gray.600', 'gray.50'),
     borderRadius: 'xl',
     boxShadow: 'xl',
-    _hover: { backgroundColor: useColorModeValue('gray.700', 'gray.200') },
+    _hover: { backgroundColor: useColorModeValue('gray.800', 'gray.200') },
   }
 
   return (
