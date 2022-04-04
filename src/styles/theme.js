@@ -1,3 +1,4 @@
+// @see: https://chakra-ui.com/docs/styled-system/theming/customize-theme
 import { theme as chakraTheme, extendTheme } from '@chakra-ui/react'
 
 const fonts = {

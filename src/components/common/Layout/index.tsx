@@ -6,7 +6,7 @@ import Header from '../Header'
 import Main from '../Main'
 
 const Layout: React.FC = ({ children }) => {
-  const bgColor = useColorModeValue('gray.50', 'gray.900')
+  const bgColor = useColorModeValue('gray.100', 'gray.700')
 
   return (
     <>
