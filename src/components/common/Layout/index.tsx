@@ -1,4 +1,4 @@
-import { Box } from '@chakra-ui/react'
+import { Box, useColorModeValue } from '@chakra-ui/react'
 import React from 'react'
 
 import Footer from '../Footer'
@@ -6,13 +6,15 @@ import Header from '../Header'
 import Main from '../Main'
 
 const Layout: React.FC = ({ children }) => {
+  const bgColor = useColorModeValue('gray.50', 'gray.900')
+
   return (
     <>
       <Box
         display={'flex'}
         flexDirection={'column'}
         minH={'calc(100vh)'}
-        backgroundColor={'gray.50'}
+        backgroundColor={bgColor}
       >
         <Header />
         <Main>{children}</Main>
