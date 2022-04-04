@@ -8,6 +8,9 @@ const fonts = {
 const overrides = {
   ...chakraTheme,
   fonts,
+  global: (props) => ({
+    color: props.colorMode === 'dark' ? 'white' : 'black',
+  }),
 }
 
 const customTheme = extendTheme(overrides)

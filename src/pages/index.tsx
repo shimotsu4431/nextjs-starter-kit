@@ -1,4 +1,4 @@
-import { Box, Button, Text, useColorModeValue } from '@chakra-ui/react'
+import { Box, Button, Text } from '@chakra-ui/react'
 import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import { FiArrowRight } from 'react-icons/fi'
@@ -11,15 +11,11 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
   const router = useRouter()
 
-  const textColor = useColorModeValue('black', 'white')
-
   return (
     <>
       <NextSeo title={APP_NAME} description={APP_DESCRIPTION} />
       <>
-        <Text fontSize="md" color={textColor}>
-          This is {APP_NAME}.
-        </Text>
+        <Text fontSize="md">This is {APP_NAME}.</Text>
         <Box mt={4}>
           <Button
             colorScheme="teal"

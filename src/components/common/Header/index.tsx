@@ -6,8 +6,6 @@ import { APP_NAME } from '@/lib/constants'
 import ThemeButtonComponent from '../ThemeButton'
 
 const Header: React.FC = () => {
-  const textColor = useColorModeValue('black', 'white')
-
   const buttonStyleProps: any = {
     color: useColorModeValue('gray.50', 'gray.600'),
     bgColor: useColorModeValue('gray.600', 'gray.50'),
@@ -18,7 +16,7 @@ const Header: React.FC = () => {
 
   return (
     <Box p={8} as={'header'} display={'flex'}>
-      <Heading color={textColor}>{APP_NAME}</Heading>
+      <Heading>{APP_NAME}</Heading>
       <Spacer />
       <ThemeButtonComponent styleProps={buttonStyleProps} />
     </Box>
