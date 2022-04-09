@@ -5,7 +5,7 @@ npm install
 yarn
 ```
 
-npm および yarn のバージョンはバージョン管理ツール [Volta](https://volta.sh/) を利用し、以下で固定しています。
+node および yarn のバージョンはバージョン管理ツール [Volta](https://volta.sh/) を利用し、以下で固定しています。
 
 ```
 "node": "16.13.1",
