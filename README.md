@@ -22,6 +22,7 @@ yarn dev
 ## 利用ツール
 - [Next.js](https://nextjs.org/)
 - [React](https://ja.reactjs.org/)
+- [typescript](https://www.typescriptlang.org/)
 - [Chakra UI](https://chakra-ui.com/)
 - [Prettier](https://prettier.io/)
 - [ESLint](https://eslint.org/)
