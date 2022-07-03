@@ -1,5 +1,3 @@
-Next.js 用のスターターキットです。
-
 ## 環境構築
 ```bash
 npm install
